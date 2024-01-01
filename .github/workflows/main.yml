@@ -1,6 +1,4 @@
-
 name: Run Selenium Test
-
 on:
   push:
     branches:["master"]
@@ -14,6 +12,4 @@ jobs:
           java-version: "19"
           cache: maven
       - uses: browser-actions/setup-chrome@v3
-        with:
-          chrome-version: 120
       - run: mvn clean test
