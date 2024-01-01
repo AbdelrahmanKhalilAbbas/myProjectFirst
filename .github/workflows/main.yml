@@ -1,0 +1,6 @@
+
+name = Run Selenium Test
+
+on:
+  push:
+    
